@@ -16,7 +16,6 @@ class SimplePromise{
         let reject = error => this[symbolReject](error);
 
         fn(resolve,reject);
-
     }
 
     execute(type){
